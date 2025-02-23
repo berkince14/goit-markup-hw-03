@@ -187,10 +187,10 @@ img {
 .menu-ul {
     display: flex;
     gap: 40px;
-
 }
+
 .menu-list-item {
-    padding: 24px 0px;
+    padding: 24px 0;
 }
 
 .address-ul {
