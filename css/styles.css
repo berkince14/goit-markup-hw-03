@@ -1,0 +1,160 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.logo_class {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5
+}
+
+.stuido_class {
+    color: #2e2f42;
+}
+
+.link_class {
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #2e2f42
+}
+
+.link_class:hover,
+.link_class:focus {
+    color: #404bbf;
+}
+
+.address_class {
+    font-style: normal;
+}
+
+.mailtel_class {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+
+.mailtel_class:hover,
+.mailtel_class:focus {
+    color: #404bbf
+}
+
+.firstsection_class {
+    background-color: #2e2f42;
+}
+
+.title_class {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff
+}
+
+.button_class {
+    font-family: "Roboto", sans-serif;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff
+}
+
+.button_class:hover,
+.button_class:focus {
+    background-color: #404bbf;
+    cursor: pointer;
+}
+
+.subtitle_class {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42
+}
+
+.paragraph_class {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+
+.thirdsection_class {
+    background-color: #f4f4fd;
+}
+
+.thirdsubtitle_class {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42
+}
+
+.thirdsection_images {
+    background-color: #FFFFFF;
+}
+
+.images_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42
+}
+
+.images_paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.fourthsection_subtitle {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42
+}
+
+.fourthsection_class {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42
+}
+
+.fourthsection_p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+
+.footer_class {
+    background-color: #2e2f42;
+}
+
+.footer_p {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+.footerstuido_class {
+    color: #F4F4FD;
+}
