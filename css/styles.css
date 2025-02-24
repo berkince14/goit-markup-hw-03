@@ -71,9 +71,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
   display: inline-block;
-  margin-bottom: 16px;
+  margin-right: 76px;
+  margin-left: 156px;
+  margin-bottom: 24px;
   color: #4d5ae5;
 }
 
@@ -254,6 +255,8 @@ img {
 
 .header-container {
   display: flex;
+  width: 1440px;
+  height: 72px;
 }
 
 .container {
