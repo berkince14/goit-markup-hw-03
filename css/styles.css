@@ -83,6 +83,7 @@ body {
 .link_class {
   display: block;
   text-decoration: none;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
