@@ -247,6 +247,7 @@ body {
 
 .footerlogo_class {
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 img {
@@ -279,13 +280,13 @@ img {
   gap: 40px;
 }
 
-.menu-list-item {
-  padding: 24px 0;
-}
-
 .address-ul {
   display: flex;
   gap: 40px;
+}
+
+.menu-list-item {
+  padding: 24px 0;
 }
 
 .our-core {
