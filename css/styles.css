@@ -327,6 +327,8 @@ img {
 
 .fourthsection_li {
   flex-basis: calc((100% - 72px) / 4);
+  flex: 1;
+  background-color: #ffffff;
 }
 
 .fourth_name {
