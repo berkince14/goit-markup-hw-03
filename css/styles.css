@@ -89,6 +89,7 @@ body {
 }
 
 .subtitle_class {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -207,4 +208,34 @@ img {
 .address-ul {
     display: flex;
     gap: 40px
+}
+
+.our-core {
+    padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;    
+    border: 0;    
+    padding: 0;    
+    white-space: nowrap;   
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow:     hidden;
+}    
+
+.firstsection-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+}
+
+.firstsection-li {
+    flex: 1;
+    background-color: #ffffff;
+    flex-basis: calc((100% - 72px) / 4);
 }
