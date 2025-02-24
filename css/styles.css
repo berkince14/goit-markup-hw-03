@@ -234,8 +234,8 @@ img {
     gap: 24px;
 }
 
-.firstsection-ul li {
-    flex-basis: calc((100% - 72px) / 4)
+.firstsection-li {
+    width: calc((100% - 72px) / 4);
 }
     
 
