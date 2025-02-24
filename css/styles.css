@@ -329,6 +329,10 @@ img {
   padding: 120px 0;
 }
 
+.fourthsection_h3 {
+  margin-bottom: 8px;
+}
+
 .fourthsection_ul {
   display: flex;
   flex-wrap: wrap;
