@@ -184,7 +184,7 @@ img {
     align-items: center;
 }
 
-.menu-ul {
+.menu {
     display: flex;
     gap: 40px;
 }
