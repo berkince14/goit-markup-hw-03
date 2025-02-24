@@ -72,6 +72,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
   color: #4d5ae5;
 }
 
@@ -228,12 +230,14 @@ body {
 
 .footer_class {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer_p {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .footerstuido_class {
