@@ -234,7 +234,7 @@ img {
     gap: 24px;
 }
 
-.firstsection-li {
+.firstsection-ul li {
     width: calc((100% - 72px) / 4);
 }
     
