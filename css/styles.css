@@ -71,10 +71,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
   margin-right: 76px;
-  margin-left: 156px;
-  margin-bottom: 24px;
+
   color: #4d5ae5;
 }
 
@@ -83,8 +81,9 @@ body {
 }
 
 .link_class {
+  display: block;
+  text-decoration: none;
   font-weight: 500;
-  line-height: 1.5;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -97,11 +96,12 @@ body {
 
 .address_class {
   font-style: normal;
+  position: absolute;
+  right: 20px;
 }
 
 .mailtel_class {
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -246,6 +246,13 @@ body {
 }
 
 .footerlogo_class {
+  line-height: 1.17;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #4d5ae5;
+  text-transform: uppercase;
   margin-bottom: 16px;
   display: inline-block;
 }
