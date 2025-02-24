@@ -272,7 +272,7 @@ img {
   gap: 40px;
 }
 
-.menu-list-item {
+.menu-list-item.first-child {
   padding: 24px 0;
 }
 
