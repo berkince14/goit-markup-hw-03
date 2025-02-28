@@ -1,3 +1,4 @@
+/* Reset and Base Styles */
 * {
   box-sizing: border-box;
 }
@@ -58,12 +59,7 @@ ul {
   list-style-type: none;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
-
+/* Header Styles */
 .logo_class {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -72,7 +68,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-
   color: #4d5ae5;
 }
 
@@ -112,6 +107,36 @@ body {
   color: #404bbf;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+}
+
+.headermenu-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.address-ul {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-list-item {
+  padding: 24px 0;
+}
+
+/* Main Content Sections */
 .firstsection_class {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -149,6 +174,10 @@ body {
 .button_class:focus {
   background-color: #404bbf;
   cursor: pointer;
+}
+
+.our-core {
+  padding: 120px 0;
 }
 
 .subtitle_class {
@@ -205,6 +234,15 @@ body {
   letter-spacing: 0.02em;
 }
 
+.ourteam-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.name-tag {
+  padding: 32px 0;
+}
+
 .fourthsection_subtitle {
   margin-bottom: 72px;
   font-size: 36px;
@@ -216,11 +254,11 @@ body {
 }
 
 .fourthsection_class {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  padding: 120px 0;
+}
+
+.fourthsection_h3 {
+  margin-bottom: 8px;
 }
 
 .fourthsection_p {
@@ -230,6 +268,27 @@ body {
   color: #434455;
 }
 
+.fourthsection_ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.fourthsection_li {
+  flex-basis: calc((100% - 72px) / 4);
+  flex: 1;
+  background-color: #ffffff;
+}
+
+.fourth_name {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+/* Footer Styles */
 .footer_class {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -258,47 +317,11 @@ body {
   display: inline-block;
 }
 
-img {
-  display: block;
-}
-
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.header-container {
-  display: flex;
-  width: 1440px;
-  height: 72px;
-}
-
+/* Layout & Utility Classes */
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-.headermenu-nav {
-  display: flex;
-  align-items: center;
-}
-
-.menu {
-  display: flex;
-  gap: 40px;
-}
-
-.address-ul {
-  display: flex;
-  gap: 40px;
-}
-
-.menu-list-item {
-  padding: 24px 0;
-}
-
-.our-core {
-  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -325,39 +348,6 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
-.ourteam-ul {
-  display: flex;
-  gap: 24px;
-}
-
-.name-tag {
-  padding: 32px 0;
-}
-
-.fourthsection_class {
-  padding: 120px 0;
-}
-
-.fourthsection_h3 {
-  margin-bottom: 8px;
-}
-
-.fourthsection_ul {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
-
-.fourthsection_li {
-  flex-basis: calc((100% - 72px) / 4);
-  flex: 1;
-  background-color: #ffffff;
-}
-
-.fourth_name {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px;
+img {
+  display: block;
 }
